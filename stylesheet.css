@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  font-family: "Outfit";
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  margin: auto;
+  padding: 24px 24px 15px 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3%;
+  width: 20rem;
+}
+
+.card-img-top {
+  border-radius: 3%;
+}
+
+.overlay {
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: rgb(34, 170, 159, 0.4);
+  padding: 35%;
+  border-radius: 3%;
+  cursor: pointer;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card-title {
+  font-weight: 600;
+  padding-bottom: 5%;
+  cursor: pointer;
+}
+
+.card-title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.card-body {
+  padding: 10% 0 0 0;
+}
+
+.card-text {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+
+.p-1 {
+  color: hsl(178, 100%, 50%);
+}
+
+.card-img-bottom {
+  padding-top: 5%;
+  width: 15%;
+  margin-right: 7%;
+}
+
+.text {
+  border-top: 2px solid hsl(215, 32%, 27%);
+
+  margin-bottom: 0;
+}
+
+.jules-Wyvern {
+  color: white;
+  cursor: pointer;
+}
+
+.jules-Wyvern:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.cyan {
+  color: hsl(178, 100%, 50%);
+}
